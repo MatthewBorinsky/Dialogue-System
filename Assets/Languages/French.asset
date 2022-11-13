@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906c73ef891941849a9f6a315592ec2a, type: 3}
+  m_Name: French
+  m_EditorClassIdentifier: 
+  language:
+  - Key: choice3.1
+    Value: Eau
+  - Key: french
+    Value: "Fran\xE7ais"
+  - Key: english
+    Value: Anglais
+  - Key: choice4.1
+    Value: "Des l\xE9gumes"
+  - Key: choice2.1
+    Value: Bifteck
+  - Key: choice1.1
+    Value: Chocolat
+  - Key: prompt1
+    Value: "Quelle est ma nourriture pr\xE9f\xE9r\xE9e?"
+  - Key: choice1.2
+    Value: 3
+  - Key: choice2.2
+    Value: "Comment suis-je cens\xE9 lire dans vos pens\xE9es ? Faire mieux."
+  - Key: choice1.3
+    Value: "Oui, je suis tr\xE8s int\xE9ress\xE9 par votre plat pr\xE9f\xE9r\xE9."
+  - Key: choice2.3
+    Value: "Non, je ne suis pas assez pay\xE9. Gr\xE8ve TA \xE0 venir."
+  - Key: choice1.4
+    Value: 100%
+  - Key: choice2.4
+    Value: :(
+  - Key: choice3.4
+    Value: J'en ai marre.
+  - Key: choice1.5
+    Value: Recommencer!
+  - Key: prompt2
+    Value: "Exact, \xE0 quel num\xE9ro est-ce que je pense en ce moment\_?"
+  - Key: prompt3
+    Value: "Incorrect, voulez-vous r\xE9essayer\_?"
+  - Key: prompt4
+    Value: "Correct, quelle note me donnerez-vous sur Tools 3\_?Correct, quelle note
+      me donnerez-vous sur Tools 3?"
+  - Key: prompt5
+    Value: "Donc, vous avez abandonn\xE9 ou atteint la fin."
+  - Key: choice1.6
+    Value: "Oui, ce syst\xE8me de dialogue pourrait \xEAtre vendu sur le magasin
+      Unity Asset, c'est tellement bon."
+  - Key: choice1.7
+    Value: Quoi?
+  - Key: prompt6
+    Value: "Fonctionne pour moi, je suppose que c'est d\xE9j\xE0 acceptable alors."
+  - Key: prompt7
+    Value: "Faux. Essayez \xE0 nouveau."
+  - Key: exit
+    Value: Sortir

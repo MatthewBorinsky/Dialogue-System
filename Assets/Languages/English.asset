@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906c73ef891941849a9f6a315592ec2a, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language:
+  - Key: choice3.1
+    Value: Water
+  - Key: french
+    Value: French
+  - Key: english
+    Value: English
+  - Key: choice4.1
+    Value: Vegetables
+  - Key: choice2.1
+    Value: Steak
+  - Key: choice1.1
+    Value: Chocolate
+  - Key: prompt1
+    Value: What is my favourite food?
+  - Key: choice1.2
+    Value: 3
+  - Key: choice2.2
+    Value: How am I supposed to read your mind? Do better.
+  - Key: choice1.3
+    Value: Yes, I'm very interested in your favourite food.
+  - Key: choice2.3
+    Value: No, I'm not paid enough. TA strike coming next.
+  - Key: choice1.4
+    Value: 100%
+  - Key: choice2.4
+    Value: :(
+  - Key: choice3.4
+    Value: I'm tired of this.
+  - Key: choice1.5
+    Value: Start again!
+  - Key: prompt2
+    Value: Correct, what number am I thinking of right now?
+  - Key: prompt3
+    Value: Incorrect, do you want to try again?
+  - Key: prompt4
+    Value: Correct, what mark will you give me on Tools 3?
+  - Key: prompt5
+    Value: So, you've given up or reached the end.
+  - Key: choice1.6
+    Value: Yea, this dialogue system could be sold on the Unity Asset store its so
+      good.
+  - Key: choice1.7
+    Value: What?
+  - Key: prompt6
+    Value: Works for me, I guess this is acceptable already then.
+  - Key: prompt7
+    Value: Incorrect, try again.
+  - Key: exit
+    Value: Exit
