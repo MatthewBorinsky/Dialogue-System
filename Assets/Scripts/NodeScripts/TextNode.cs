@@ -6,12 +6,13 @@ using XNode;
 public class TextNode : GenericNode {
 
 	[Input] public int PreviousNode;
-	[Output] public int NextNode;
-	public string character;
-	public string text;
+	
+	
+	[Output(dynamicPortList = true)] public string[] NextNode;
+	public string key;
 
 
 	public override string GetString(){
-		return "TextNode/" + character + "/" + text;
+		return "TextNode/" + key + "/" + NextNode;
 	}
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -88, y: -40}
+  position: {x: -56, y: -120}
   ports:
     keys:
     - NextNode
@@ -21,7 +21,7 @@ MonoBehaviour:
     values:
     - _fieldName: NextNode
       _node: {fileID: -4106246676289005809}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections: []
       _direction: 1
@@ -41,9 +41,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   PreviousNode: 0
-  NextNode: 0
-  character: 
-  text: 
+  NextNode: []
+  key: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +72,7 @@ MonoBehaviour:
   m_Name: Root
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -328, y: -40}
+  position: {x: -280, y: -56}
   ports:
     keys:
     - NextNode
